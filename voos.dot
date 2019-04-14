@@ -1,0 +1,31 @@
+digraph Voos
+{
+	label = "GRAFO DE VOOS DIRETOS";
+	ABQ[color=red];
+	ATL[color=blue];
+	BNA[color=green];
+	BOS[color=cyan];
+	DCA[color=black];
+	DEN[color=yellow];
+	DFW[color=violet];
+	DTW[color=orange];
+	HOU[color=gray];
+	JFK[color=purple];
+	LAX[color=pink];
+	MIA[color=tomato];
+	MSP[color=gold];
+	MSY[color=salmon];
+	ORD[color=magenta];
+	PHL[color=brown];
+	PHX[color=dimgray];
+	PVD[color=darkorange];
+	RDU[color=limegreen];
+	SEA[color=darkviolet];
+	SFO[color=Aquamarine];
+	STL[color=peru];
+	TPA[color=coral];
+	ABQ -> DEN[label = "(1)"][color=red];
+	ABQ -> DFW[label = "(1)"][color=red];
+	ABQ -> LAX[label = "(1)"][color=red];
+	ABQ -> PHX[label = "(1)"][color=red];
+}
